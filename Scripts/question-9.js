@@ -17,5 +17,6 @@ myFunction(num3, num1);
  Three variables are declared and initialized – "num1" with a value 10, "num2" with a value 1, "num3" with a value 20.
  As the function is called", the function takes in the arguments num3 (= 20) and num1 (= 10), but will not log anything.
  
- Result: as expected.
+ Result: 20 was logged.
+ As the num3 is in a global scope, it took the value in the function and logged it.
  */
