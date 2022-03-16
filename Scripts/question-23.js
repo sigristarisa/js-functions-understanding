@@ -17,6 +17,9 @@ The value of result will be 0.
 The variable "result" will have 0 as a valuable, as we are calling the value of "result" in line 7.
  
 Result: The value is 102.
+The function, which does not have a variable declared as result, will look outside to the global scope.
+let result = 0 is there, so the variable is declared and the function can be assign the num1+num2 to the variable.
+console.log(result)=num1+num2
  */
 
 console.log(result);
